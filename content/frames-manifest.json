@@ -1,0 +1,9 @@
+{
+  "frameCount": 192,
+  "frameDir": "https://zykgxmubadvmlxpkqrzd.supabase.co/storage/v1/object/public/site-assets/41b0558f-9fb4-4b8d-a8da-729be41c2e1e/frames",
+  "fps": 24,
+  "width": 1920,
+  "frameUrlTemplate": "https://zykgxmubadvmlxpkqrzd.supabase.co/storage/v1/object/public/site-assets/41b0558f-9fb4-4b8d-a8da-729be41c2e1e/frames/frame-{NNNN}.jpg",
+  "sceneId": "scene-1",
+  "storage": "supabase"
+}

@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Forest & Amber — light cream theme */
+  --color-bg: #f5f1e6;
+  --color-surface: #d9b97a;
+  --color-primary: #3f5e3a;
+  --color-ink: #1b2a1a;
+
+  /* Aliases consumed by ScrollCanvas canvas + loader overlay */
+  --bg-color: #1b2a1a;
+  --fg-color: #f5f1e6;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    background-color: var(--color-bg);
+    color: var(--color-ink);
+    font-family: var(--font-sans), system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+  ::selection {
+    background-color: var(--color-primary);
+    color: var(--color-bg);
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
