@@ -21,7 +21,7 @@ export function asset(slot: string, keyword?: string): string {
 
 export const heroFrames = {
   frameCount: frames.frameCount as number,
-  pattern: "/frames/frame-{n}.jpg",
+  pattern: (frames.frameUrlTemplate as string) ?? "/frames/frame-{n}.jpg",
   padLength: 4,
 };
 
